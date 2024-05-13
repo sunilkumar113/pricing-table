@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body{
+            background-color: aqua;
+            color: black;
+        }
+        h1{
+            text-align: center;
+        }
+        #left{
+            display: inline-block;
+            margin-top: 50px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 345px;
+            width: 280px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        #lt{
+            
+            color:  rgb(80, 255, 80);
+            height: 110px;
+            text-align: center;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .price{
+            font-size:x-large;
+        }
+        #lb{
+            padding: 20px;
+            background-color: rgb(80, 255, 80);
+            color: white;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            p{
+                text-align: left;
+            }
+        }
+        #right{
+            display: inline-block;
+            margin-top: 50px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 248px;
+            width: 280px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        #rt{
+            
+            color:  rgb(80, 182, 255);
+            height: 110px;
+            text-align: center;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #rb{
+            padding: 20px;
+            background-color: rgb(80, 182, 255);
+            color: white;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            p{
+                text-align: left;
+            }
+        }
+        #center{
+            display: inline-block;
+            margin-top: 50px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 280px;
+            width: 290px;
+            position: absolute;
+            top: 50px;
+            left: 335px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        #ct{
+            
+            color:  rgb(255, 80, 150);
+            height: 141px;
+            text-align: center;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #cb{
+            padding: 20px;
+            background-color: rgb(255, 80, 150);
+            color: white;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            height: 237px;
+            p{
+                text-align: left;
+            }
+        }
+        input{
+            border-radius:10px;
+            background-color: white;
+        }
+        input:hover{
+            background-color: rgba(128, 128, 128, 0.745);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Creative Pricing Table</h1>
+    <div id="left">
+        <div id="lt">
+            <br>
+            <b class="price">$26</b>
+            <p class="month">per month</p>
+        </div>
+        <div id="lb">
+            <b>BASIC</b>
+            <p>✔️Data 100GB</p>
+            <p>✔️Speed upto 40Mbps</p>
+            <p>✔️Calls 100 calls local STD</p>
+            <p>❌Amazon Prime and Netflix 1 year</p>
+            <input type="button" value="CHOOSE">
+        </div>
+    </div>
+    <div id="right">
+        <div id="rt">
+            <br>
+            <b class="price">$40</b>
+            <p class="month">per month</p>
+        </div>
+        <div id="rb">
+            <b>PREMIUM</b>
+            <p>✔️Data 500GB</p>
+            <p>✔️Speed upto 1 Gbps</p>
+            <p>✔️Calls Unlimited Local/STD</p>
+            <p>✔️Amazon Prime 1 year</p>
+            <input type="button" value="CHOOSE">
+        </div>
+    </div>
+    <div id="center">
+        <div id="ct">
+            <br><br>
+            <b class="price">$35</b>
+            <p class="month">per month</p>
+        </div>
+        <div id="cb">
+            <b>ULTIMATE</b>
+            <p>✔️Data Unlimited</p>
+            <p>✔️Speed upto 100Mbps</p>
+            <p>✔️Calls Unlimited Local/STD</p>
+            <p>✔️Amazon   Prime and Netflix 1 year</p>
+            <input type="button" value="CHOOSE">
+            <br>
+        </div>
+    </div>
+</body>
+</html>
